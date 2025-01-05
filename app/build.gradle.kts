@@ -6,7 +6,7 @@ plugins {
 
 android {
     namespace = "com.sdboyapati.echojournal"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.sdboyapati.echojournal"
