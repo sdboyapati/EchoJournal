@@ -2,11 +2,18 @@ package com.sdboyapati.echojournal.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle
+import androidx.compose.ui.text.font.Font
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
+import com.sdboyapati.echojournal.R
 
 // Set of Material typography styles to start with
+val interFontFamily = FontFamily(
+    Font(R.font.inter_28pt_medium, FontWeight.Medium),
+    Font(R.font.inter_28pt_regular, FontWeight.Normal)
+)
+
 val Typography = Typography(
     bodyLarge = TextStyle(
         fontFamily = FontFamily.Default,
